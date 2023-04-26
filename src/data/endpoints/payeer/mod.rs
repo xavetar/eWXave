@@ -23,13 +23,3 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.
  */
-
-pub(crate) mod payeer;
-pub(crate) mod qiwi;
-pub(crate) mod yoomoney;
-pub(crate) mod yookassa;
-pub(crate) mod stripe;
-pub(crate) mod paymaster;
-pub(crate) mod paykeeper;
-pub(crate) mod payanyway;
-pub(crate) mod robokassa;
