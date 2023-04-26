@@ -31,7 +31,7 @@ pub struct EndpointUrl {
 }
 
 impl EndpointUrl {
-    pub fn new(head: &str, tail: &'static str) -> EndpointUrl {
+    pub fn new(head: &'static str, tail: &'static str) -> EndpointUrl {
         return EndpointUrl {
             url: HeadTailString::new(&head, &tail).to_string(),
         }

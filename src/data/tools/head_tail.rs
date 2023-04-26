@@ -30,7 +30,7 @@ pub struct HeadTailString {
 }
 
 impl HeadTailString {
-    pub fn new(head: &str, tail: &'static str) -> HeadTailString {
+    pub fn new(head: &'static str, tail: &'static str) -> HeadTailString {
         return HeadTailString {
             head: head.to_owned(),
             tail: tail.to_owned()
