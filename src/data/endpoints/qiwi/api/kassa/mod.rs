@@ -24,5 +24,9 @@
  * IN THE SOFTWARE.
  */
 
-mod urls;
+pub(self) use crate::data::endpoints::qiwi::{URLs};
+pub(self) use crate::data::tools::{EndpointUrl};
 
+mod bills;
+
+pub(crate) use bills::{Kassa};

@@ -29,4 +29,6 @@ mod base;
 mod api;
 
 pub(self) use base::{URLs};
-pub(crate) use api::{wallet};
+pub(crate) use api::kassa::{Kassa};
+pub(crate) use api::wallet::{Profile, Master, Payments, Bills, Invoice, WebHooks};
+pub(crate) use api::terminals::{TerminalMaps};

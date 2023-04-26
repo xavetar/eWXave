@@ -25,7 +25,7 @@
  */
 
 use super::{EndpointUrl};
-use super::URLs::{Base, Oplata, Edge, API};
+use super::URLs::{Edge};
 
 pub enum Bills {
     P2PIssue,

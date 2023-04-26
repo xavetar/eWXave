@@ -25,7 +25,7 @@
  */
 
 use super::{EndpointUrl};
-use super::URLs::{Base, Oplata, Edge, API};
+use super::URLs::{Base, Edge};
 
 pub enum Payments {
     Commission,

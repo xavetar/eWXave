@@ -24,5 +24,9 @@
  * IN THE SOFTWARE.
  */
 
-mod urls;
+pub(self) use crate::data::endpoints::qiwi::{URLs};
+pub(self) use crate::data::tools::{EndpointUrl};
 
+mod locator;
+
+pub(crate) use locator::{TerminalMaps};

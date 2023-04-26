@@ -24,7 +24,6 @@
  * IN THE SOFTWARE.
  */
 
-mod p2p;
-mod terminals;
-
+pub(crate) mod kassa;
 pub(crate) mod wallet;
+pub(crate) mod terminals;
