@@ -3,5 +3,7 @@ name = "eWXave"
 version = "0.0.1"
 edition = "2021"
 license-file = "LICENSE"
+include = ["/src", "LICENSE", "Cargo.toml"]
+exclude = [".*"]
 
 [dependencies]
