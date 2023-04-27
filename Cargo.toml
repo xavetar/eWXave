@@ -3,6 +3,7 @@ name = "eWXave"
 version = "0.0.1"
 edition = "2021"
 license-file = "LICENSE"
+description = "Convenient crate for working with payment API."
 include = ["/src", "LICENSE", "Cargo.toml"]
 exclude = [".*"]
 
