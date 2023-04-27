@@ -4,7 +4,10 @@ version = "0.0.1"
 edition = "2021"
 license-file = "LICENSE"
 description = "Convenient crate for working with payment API."
-include = ["/src", "LICENSE", "Cargo.toml"]
-exclude = [".*"]
+include = ["*.rs", "src/", "LICENSE", "Cargo.toml"]
+exclude = [".*", ".DS_Store", "debug/", "target/", "Cargo.lock", "**/*.rs.bk", "*.pdb", ".AppleDouble", ".LSOverride",
+    "Icon", "._*", ".DocumentRevisions-V100", ".fseventsd", ".Spotlight-V100", ".TemporaryItems", ".Trashes",
+    ".VolumeIcon.icns", ".com.apple.timemachine.donotpresent", ".AppleDB", ".AppleDesktop", "Network Trash Folder",
+    "Temporary Items", ".apdisk", ".env", ".gitignore", ".git", ".idea"]
 
 [dependencies]
