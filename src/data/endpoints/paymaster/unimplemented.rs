@@ -24,4 +24,6 @@
  * IN THE SOFTWARE.
  */
 
-mod unimplemented;
+fn unimplemented() {
+    unimplemented!("PayMaster is not implemented");
+}

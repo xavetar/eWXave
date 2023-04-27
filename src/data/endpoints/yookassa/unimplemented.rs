@@ -24,4 +24,6 @@
  * IN THE SOFTWARE.
  */
 
-mod unimplemented;
+fn unimplemented() {
+    unimplemented!("Yookassa is not implemented");
+}

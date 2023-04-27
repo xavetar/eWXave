@@ -24,4 +24,4 @@
  * IN THE SOFTWARE.
  */
 
-unimplemented!();
+mod unimplemented;
